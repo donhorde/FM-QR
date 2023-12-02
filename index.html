@@ -11,25 +11,25 @@
 
   <style>
     body {
+      height: 100vh;
       display: flex;
       justify-content: center;
+      align-items: center;
       font-family: 'Outfit', Helvetica, Arial, sans-serif;
       text-align: center;
+      margin: 0;
       background-color: hsl(212, 45%, 89%);
     }
     h1 {
       font-weight: 700;
-      font-size: 22px;
+      font-size: 1.4em;
     }
     p {
-      font-size: 15px;
+      font-size: 0.9em;
       font-weight: 400;
       color: hsl(220, 15%, 55%);
     }
     .main-box {
-      position: absolute;
-      top: 50%;
-      transform: translate(0, -50%);
       background-color: white;
       width: 250px;
       padding: 15px;
@@ -43,7 +43,7 @@
     }
     .attribution {
       position: absolute;
-      bottom: 5px;
+      bottom: 5px; 
       right: 5px;
       font-size: 11px;
     }
@@ -55,7 +55,7 @@
 <body>
   <div class="main-box">
     <div class="main-box__qr">
-      <img src="./images/image-qr-code.png">
+      <img src="./images/image-qr-code.png" alt="QR Code">
     </div>
     <h1>Improve your front-end skills by building projects</h1>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
@@ -63,7 +63,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Don Horde</a>.
+    Coded by <a href="https://github.com/donhorde">Don Horde</a>.
   </div>
 </body>
 </html>
